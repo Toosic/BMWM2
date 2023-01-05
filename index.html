@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="script.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW M2 Coupe</title>
+</head>
+<body>
+
+
+    <div class="title">
+        <div class="header">
+            <img src="./picture/BMWlogo.svg">
+    
+            <button onclick="mobileMenu()">MENU</button>
+    
+            <ul>
+                <li><a href="index.html">Pocetna</a></li>
+                <li><a href="dizajn.html">Dizajn</a></li>
+                <li><a href="detaljiTehnologija.html">Detalji o tehnologiji</a></li>
+                <li><a href="tehnickiPodaci.html">Tehnicki podaci</a></li>
+                <li><a href="Contact.html">Kontakt</a></li>
+                <li><a href="oNama.html">O nama</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="home">
+        <p>Novi BMW M2 Coupe postavlja novi standard dinamičke snage i agilnosti u segmentu kompaktnih sportskih automobila visokih performansi.</p>
+        <br>
+        <img src="./picture/M2Coupe-01-01-1030x568.jpg">
+      
+        <br>
+        <br>
+        <p>Još pre 40 godina BMW je imao kompaktan automobil visokih performansi za kojim su se svi okretali.</p>
+        <p>BMW 2002 je savršeno predstavljao težnju da se isporuči vrhunska dinamičnost, agilnost i optimalna kontrola automobila.</p>
+        <p>Posvećenost tom cilju je i dalje aktuelna što nam BMW i dokazuje svojim novim modelom BMW M2.</p>
+        <p>Redni šestocilindrični motor visokih performasi, agilnost koju donosi pogon na zadnjoj osovini, lako aluminijumsko M Sport vešanje i ekstovertni stil, </p>
+        <p>čine da BMW M2 Coupe pruža ultimativno uživanje u vožnji.</p>
+    </div>
+    
+    <div class="HOME">
+        
+        <div class="home1">
+            <h2>BMW M2 Coupe</h2>
+            <p id="pf5">Ekskluzivni osecaj motosporta zahvaljujuci ubedljivim vrednostima u pogledu performansi.</p>
+            <br>
+            <p id="pf1">* M TwinPower Turbo redni 6-cilindricni benzin motor sa 450 KS</p>
+            <p id="pf2">* Adoptivno M vesanje sa Active M menjacem i pogonom na zadnjim tockovima</p>
+            <p id="pf3">* Manuelni prenos ili M Steptronic prenos sa Drivelogic</p>
+            <p id="pf4">* 338 kW, 550 Nm, 0-100 km/h za 4.1 s [M Steptronic]</p>
+        </div>
+    <img src="./picture/M21 copy.jpg" onmouseover="DontHaveCar()" onmouseout="haveCar()">
+    </div>
+
+    <div class="morePictures">
+        <button onclick="MorePicture()" id="btn">Prikazi jos slika</button>
+    <p id="pf6"></p>
+    <div class="opac">
+        <div class="images">
+            <img id="img1" src="./picture/pic1.jpg" onclick="opneModal1()">
+            <img id="img2" src="./picture/pic2.jpg" onclick="opneModal2()">
+            <img id="img3" src="./picture/pic3.jpg" onclick="opneModal3()">
+            <img id="img4" src="./picture/pic4.jpg" onclick="opneModal4()">
+            </div>
+    </div>
+    
+    </div>
+    <div class="popup-modal1">
+    	<button id="closeModal" onclick="closeModal1()">X</button>
+        <img id="prva" src="./picture/pic1.jpg">
+    </div>
+
+    <div class="popup-modal2">
+    	<button id="closeModal" onclick="closeModal2()">X</button>
+        <img id="prva" src="./picture/pic2.jpg">
+    </div>
+
+    <div class="popup-modal3">
+    	<button id="closeModal" onclick="closeModal3()">X</button>
+        <img id="prva" src="./picture/pic3.jpg">
+    </div>
+
+    <div class="popup-modal4">
+    	<button id="closeModal" onclick="closeModal4()">X</button>
+        <img id="prva" src="./picture/pic4.jpg">
+    </div>
+
+    <div class="overlay"></div>
+    
+    <div class="foter">
+        <div class="header">
+    
+            <button onclick="mobileMenu()">MENU</button>
+    
+            <ul>
+                <li><a href="home.html">Pocetna</a></li>
+                <li><a href="dizajn.html">Dizajn</a></li>
+                <li><a href="detaljiTehnologija.html">Detalji o tehnologiji</a></li>
+                <li><a href="tehnickiPodaci.html">Tehnicki podaci</a></li>
+                <li><a href="Contact.html">Kontakt</a></li>
+                <li><a href="oNama.html">O nama</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

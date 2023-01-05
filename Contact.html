@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="script.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW M2 Coupe</title>
+</head>
+<body onload="startTimer()">
+    <div class="title">
+        <div class="header">
+            <img src="./picture/BMWlogo.svg">
+    
+            <button onclick="mobileMenu()">MENU</button>
+    
+            <ul>
+                <li><a href="index.html">Pocetna</a></li>
+                <li><a href="dizajn.html">Dizajn</a></li>
+                <li><a href="detaljiTehnologija.html">Detalji o tehnologiji</a></li>
+                <li><a href="tehnickiPodaci.html">Tehnicki podaci</a></li>
+                <li><a href="Contact.html">Kontakt</a></li>
+                <li><a href="oNama.html">O nama</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="text">
+            
+            <p id="title">KONTAKT</p>
+            <p>Vase ime:</p>
+            <br>
+            <input type="text" id="ime" placeholder="Unesite ime" >
+            <p>Vase prezime:</p>
+            <br>
+            <input type="text" id="prezime" placeholder="Unesite prezime">
+            <p>Email:</p>
+            <br>
+            <input type="text" id="meil" placeholder="Unesite email">
+            <p>Opis:</p>
+            <br>
+            <textarea name="" id="description" cols="30" rows="10" placeholder="Unesi pitanje ili ideju..."></textarea>
+            <br>
+            <p>Datum i vreme kontaktiranja:</p>
+            <br>
+          
+            <div id="dateTime"></div>   
+            
+            <button onclick="submit()">Prihvati</button>
+            <button onclick="cooki()" id="prikaz" style="width: 20%; margin-left: 1%;">Vasi prethodni podaci</button>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="lastInf">
+            <p id="ispis"></p>
+            </div>
+            
+        </div>
+      
+        
+        
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
